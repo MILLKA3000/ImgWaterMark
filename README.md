@@ -1,2 +1,0 @@
-# ImgWaterMark
-ImgWaterMark
