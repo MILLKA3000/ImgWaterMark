@@ -1,6 +1,6 @@
-var convert = require('convert');
-var findImg = require('getFiles');
+var convert = require('./lib/convert');
+var findImg = require('./lib/getFiles');
 
-new findImg.getFiles().files_.forEach(function(res){
+new findImg()._files.forEach(function(res){
     new convert.Convert(res).imgConvert();
 });
